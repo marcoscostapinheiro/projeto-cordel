@@ -33,6 +33,7 @@ header > h1{
     transform: translate(-50%, -50%);
     margin: 0px;
     font: 8vw var(--fonte1);
+    font-variant: small-caps;
 }
 
 header > p{
