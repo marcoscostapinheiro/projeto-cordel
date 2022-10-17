@@ -59,12 +59,16 @@ article.normal{
     padding: 20px 0px 20px 30px;
 }
 
+article p{
+    margin-bottom: 60px;
+}
 article.imagem{
     font: 3.5vw var(--fonte2);
     line-height: 2em;
     color: white;
     padding: 20px 0px 20px 30px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+    text-shadow: 1px 1px 1px black;
 }
 
 article.imagem > p{
@@ -74,12 +78,12 @@ article.imagem > p{
 }
 
 .imagem#img1{
-    background: white url('../imagens/background001.jpg') center no-repeat fixed;
+    background: white url('../imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
 }
 
 .imagem#img2{
-    background: white url('../imagens/background002.jpg') center no-repeat fixed; 
+    background: white url('../imagens/background002.jpg') right center no-repeat fixed; 
 }
 
 footer{
